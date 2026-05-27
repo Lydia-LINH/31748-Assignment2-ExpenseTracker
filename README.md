@@ -277,6 +277,21 @@ Main responsibilities:
 - npm
 - MongoDB Community Server or MongoDB Atlas
 
+### Frontend
+
+Open a new terminal in the project root folder, then install dependencies and start the frontend development server:
+
+```bash
+npm install
+npm run dev
+```
+
+The frontend application runs on:
+
+```text
+http://localhost:5173
+```
+
 ### Backend
 
 Create a `.env` file inside the `server` directory:
@@ -301,22 +316,6 @@ The backend API runs on:
 http://localhost:5000
 ```
 
-### Frontend
-
-Open a new terminal in the project root folder, then install dependencies and start the frontend development server:
-
-```bash
-npm install
-npm run dev
-```
-
-The frontend application runs on:
-
-```text
-http://localhost:5173
-```
-
----
 
 ## 10. Application Usage
 
